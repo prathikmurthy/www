@@ -5,6 +5,7 @@ import Loader from './components/loader.js'
 import Hero from './components/sections/hero.js'
 import About from './components/sections/about.js'
 import MainProject from './components/MainProject.js'
+import Footer from './components/sections/Footer.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <div >
     <Loader />
     <Hero />
+    <Footer />
     </div>
   </React.StrictMode>
 );
