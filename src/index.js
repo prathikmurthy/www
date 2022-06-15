@@ -9,8 +9,7 @@ import MainProject from './components/MainProject.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <h1 class="text-black text-3xl font-bold">Hello World</h1> */}
-    <div class="pl-36">
+    <div >
     <Loader />
     <Hero />
     </div>

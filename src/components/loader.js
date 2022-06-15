@@ -18,30 +18,22 @@ export default function Loader() {
             duration: 1000,
             easing: 'easeInOutQuad'
         })
-        loader.add({
-            targets: '#load',
-            // translateY: 100,
-            opacity: 1,
-            delay: 2200,
-            duration: 1000,
-            easing: 'easeInOutQuad'
-        })
+        // loader.add({
+        //     targets: '#load',
+        //     // translateY: 100,
+        //     opacity: 1,
+        //     delay: 2200,
+        //     duration: 1000,
+        //     easing: 'easeInOutQuad'
+        // })
         loader.add({
             targets: '#tag',
             translateY: -100,
             opacity: 0,
-            delay: 300,
+            delay: 3200,
             duration: 500,
             easing: 'easeInOutQuad'
         })
-        // loader.add({
-        //     targets: '#main',
-        //     zIndex: -1,
-        //     opacity: 0,
-        //     delay: 0,
-        //     duration: 1000,
-        //     easing: 'easeInOutQuad'
-        // })
     }
 
     useEffect(() => {
@@ -51,11 +43,11 @@ export default function Loader() {
 
     return (
         <div className="absolute inset-0 min-w-screen min-h-screen" id="main">
-            <div className="opacity-0 text-left pl-36 pt-40" id="tag">
-                <CircularProgress color="secondary" id="load" className="opacity-0"/>
+            <div className="opacity-0 text-left pl-16 pt-12 md:pl-36 md:pt-40 2xl:pl-96 2xl:pt-64" id="tag">
+                {/* <CircularProgress color="secondary" id="load" className="opacity-0"/> */}
                 <ReactTypingEffect
                     id="tag"
-                    className="pl-5 text-5xl text-purple-500"
+                    className="pl-5 md:text-5xl text-xl text-purple-500"
                     text={"npm start"}
                     staticText={"C:\\PrathikM\\>"}
                     typingDelay={1700}
