@@ -5,7 +5,7 @@ export default function Hero() {
 
     const animate = () => {
         const loader = anime.timeline({
-            complete: () => console.log("Completed"),
+            complete: () => document.body.style.overflow = "visible"
         })
 
         loader.add({
@@ -56,7 +56,7 @@ export default function Hero() {
     }, [])
     
     return (
-        <div class="2xl:pl-96 2xl:pt-64 md:pl-32 md:pt-40 pt-32 pr-8 pl-12 min-h-screen " >
+        <div class="min-h-screen " >
 
             <p class="text-xl text-purple-500 max-w-md opacity-0" id="one">Hi! My name is</p>
             <h1 class="text-7xl text-slate-300 font-bold pb-10 pt-5 opacity-0" id="two">Prathik Murthy 👋</h1>

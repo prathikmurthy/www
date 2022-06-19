@@ -6,8 +6,9 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 export default function Loader() {
     const animate = () => {
+        document.body.style.overflow = "hidden";
         const loader = anime.timeline({
-            complete: () => console.log("Completed"),
+            // complete: () => document.body.style.overflow = "visible",
         })
 
         loader.add({
