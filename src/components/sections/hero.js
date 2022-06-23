@@ -65,7 +65,7 @@ export default function Hero() {
             <br/>
             <p class="text-xl text-slate-400 max-w-md opacity-0" id="four">I'm currently working with <a className="text-purple-500" href="https://www.steelcase.com/" target="_blank">Steelcase</a> as a Web Developer creating responsive, scaleable web pages and tools.</p>
             <br/>
-            <p class="text-xl text-slate-400 max-w-md opacity-0" id="five">You can check out some of my work below, or on my <a className="text-purple-500" href='https://github.com/prathikmurthy' target='_blank'>Github</a> or <a className="text-purple-500" href='https://www.linkedin.com/in/prathikmurthy/' target='_blank'>LinkedIn</a>.</p>
+            <p class="text-xl text-slate-400 max-w-md opacity-0" id="five">You can check out some of my work on my <a className="text-purple-500" href='https://github.com/prathikmurthy' target='_blank'>Github</a> or <a className="text-purple-500" href='https://www.linkedin.com/in/prathikmurthy/' target='_blank'>LinkedIn</a>.</p>
             <p></p>
 
         </div>

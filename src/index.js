@@ -14,7 +14,7 @@ root.render(
     <div className="2xl:pl-96 2xl:pt-64 md:pl-32 md:pt-40 pt-32 pr-8 pl-12">
     <Loader />
     <Hero />
-    <About />
+    {/* <About /> */}
     <Footer />
     </div>
   </React.StrictMode>
