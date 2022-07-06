@@ -60,7 +60,7 @@ export default function Hero() {
 
             <p class="text-xl text-purple-500 max-w-md opacity-0" id="one">Hi! My name is</p>
             <h1 class="text-7xl text-slate-300 font-bold pb-10 pt-5 opacity-0" id="two">Prathik Murthy 👋</h1>
-            <p class="text-xl text-slate-400 max-w-md opacity-0" id="three">I'm a Computer Science major at the University of Michigan
+            <p class="text-xl text-slate-400 max-w-md opacity-0" id="three">I'm a Computer Science major at the <a className="text-purple-500" href="https://umich.edu/" target="_blank">University of Michigan</a>
             with a passion for software development and engineering.</p>
             <br/>
             <p class="text-xl text-slate-400 max-w-md opacity-0" id="four">I'm currently working with <a className="text-purple-500" href="https://www.steelcase.com/" target="_blank">Steelcase</a> as a Web Developer creating responsive, scaleable web pages and tools.</p>
